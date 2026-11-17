@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "addurdisc",
+	"version": "${version}",
+	"name": "AddurDisc",
+	"description": "Unofficial Fabric 1.21.1 port for adding custom music discs from OGG files.",
+	"authors": [
+		"TuYw",
+		"JustHari01 (port)"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/addurdisc",
+		"sources": "https://github.com/JustHari01/AddurDisc-1.21.1-Fabric-Port",
+		"issues": "https://github.com/TunYuntuwuQWQ/addurdisc/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/addurdisc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nya.tuyw.addurdisc.AddurDisc"
+		]
+	},
+	"mixins": [
+		"addurdisc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
